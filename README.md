@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-    <img width=100px height=100px src="public/dy_scrap.jpg" alt="Scrap">
+    <img width=100px height=100px src="https://i.ibb.co/JF7Pr3fH/dy-scrap.webp" alt="Scrap">
   </a>
 </p>
 
