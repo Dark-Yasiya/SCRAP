@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center">The unofficial Scrap API for extracting media from YouTube, Facebook, TikTok, and Twitter.
+<p align="center">The unofficial Scrap API for extracting media from YouTube, Facebook, TikTok, Twitter, and Instagram.
     <br>
 </p>
 
@@ -31,7 +31,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Scrap is an unofficial tool to extract media from various social platforms including YouTube, Facebook, TikTok, and Twitter.
+Scrap is an unofficial tool to extract media from various social platforms including YouTube, Facebook, TikTok, Twitter, and Instagram.
 
 ## 🚀 Getting Started <a name = "getting_started"></a>
 
