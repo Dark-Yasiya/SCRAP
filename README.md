@@ -197,6 +197,81 @@ console.log(data);
 }
 ```
 
+### 🎵 Download YouTube MP3 V2 (Audio)
+
+```ts
+let yt_url = "https://youtube.com/watch?v=AFqtArWpv-w"; // Replace with a YouTube URL
+const data = await dy_scrap.ytmp3_v2(yt_url);
+console.log(data);
+```
+
+#### Example Response:
+```ts
+{
+  status: true,
+  creator: '@Dark-Yasiya',
+  task_id: 'ECoItzNhgLoh8fEv6QIkqCM',
+  result: {
+    data: {
+      type: 'video',
+      videoId: 'AFqtArWpv-w',
+      url: 'https://youtube.com/watch?v=AFqtArWpv-w',
+      title: 'Nilan Hettiarachchi - ලෙලෙනා | Lelena (Lyrics)',
+      description: 'Title | Lelena Artiste | Nilan Hettiarachchi Music Produced by Chamath Sangeeth Lyrics | Dulan ARX ( Dulanja Alwis) Directed by ...',
+      image: 'https://i.ytimg.com/vi/AFqtArWpv-w/hq720.jpg',
+      thumbnail: 'https://i.ytimg.com/vi/AFqtArWpv-w/hq720.jpg',
+      seconds: 194,
+      timestamp: '3:14',
+      duration: { toString: [Function: toString], seconds: 194, timestamp: '3:14' },
+      ago: '3 years ago',
+      views: 543179,
+      author: { name: 'SL Lyrics', url: 'https://youtube.com/@sllyrics1123' }
+    },
+    download: {
+      url: 'https://pauline27.oceansaver.in/pacific/?ECoItzNhgLoh8fEv6QIkqCM'
+    }
+  }
+}
+```
+
+### 🎥 Download YouTube MP4 V2 (Video)
+
+```ts
+let yt_url = "https://youtube.com/watch?v=AFqtArWpv-w"; // Replace with a YouTube URL
+let quality = 360; // Choose quality (360, 720, 1080)
+const data = await dy_scrap.ytmp4_v2(yt_url, quality);
+console.log(data);
+```
+
+#### Example Response:
+```ts
+{
+  status: true,
+  creator: '@Dark-Yasiya',
+  task_id: 'GGPFjw8HjBX8XQPQ4Anduop',
+  result: {
+    data: {
+      type: 'video',
+      videoId: 'AFqtArWpv-w',
+      url: 'https://youtube.com/watch?v=AFqtArWpv-w',
+      title: 'Nilan Hettiarachchi - ලෙලෙනා | Lelena (Lyrics)',
+      description: 'Title | Lelena Artiste | Nilan Hettiarachchi Music Produced by Chamath Sangeeth Lyrics | Dulan ARX ( Dulanja Alwis) Directed by ...',
+      image: 'https://i.ytimg.com/vi/AFqtArWpv-w/hq720.jpg',
+      thumbnail: 'https://i.ytimg.com/vi/AFqtArWpv-w/hq720.jpg',
+      seconds: 194,
+      timestamp: '3:14',
+      duration: { toString: [Function: toString], seconds: 194, timestamp: '3:14' },
+      ago: '3 years ago',
+      views: 543207,
+      author: { name: 'SL Lyrics', url: 'https://youtube.com/@sllyrics1123' }
+    },
+    download: {
+      url: 'https://joan48.oceansaver.in/pacific/?GGPFjw8HjBX8XQPQ4Anduop'
+    }
+  }
+}
+```
+
 ### 🎭 Facebook Downloader
 
 ```ts
